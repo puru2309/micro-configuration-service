@@ -1,3 +1,10 @@
-sping: 
-application:
-name: 
+spring:
+  application:
+    name: Config-Server-Git
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8086/eureka/
+
+
